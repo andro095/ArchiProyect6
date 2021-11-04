@@ -559,30 +559,28 @@
           <bendpoint startX="1064" startY="-8" endX="2" endY="238"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f827b8d73c6a4871bbc15315d907e108" targetConnections="id-0d961c2bbf8f4932a5e97b4d93c7cc6a" archimateElement="id-9ba397ad2d4548e19755bf59844c7c26">
+      <child xsi:type="archimate:DiagramObject" id="id-f827b8d73c6a4871bbc15315d907e108" targetConnections="id-d62444a7f71041af8d8086e8000e9010" archimateElement="id-9ba397ad2d4548e19755bf59844c7c26">
         <bounds x="2345" y="876" width="157" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6be6084573df46298e2c7d7a8843fa3c" source="id-f827b8d73c6a4871bbc15315d907e108" target="id-88b2acd46cd34d95aa6105b81b31b754" archimateRelationship="id-4c290afe57f54549a5dea076e22d9ef6"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a59da9dc28ac41c691adf7d5efa14f29" targetConnections="id-5ab7e2a22d484cb29aa2763a4671ac75" archimateElement="id-5eddb059ccf74adc9788a82882d124c3">
-        <bounds x="442" y="1896" width="120" height="55"/>
+        <bounds x="420" y="1428" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d8f42b7d11844c3ab3b832d9711495d8" archimateElement="id-3027faf01255475c9a7a00d52fbcee8c">
-        <bounds x="444" y="1596" width="120" height="55"/>
+        <bounds x="422" y="1128" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-786926d74e824cb3a491096dc23e164d" source="id-d8f42b7d11844c3ab3b832d9711495d8" target="id-5747a837ffb347539ecf0a0f5bd35ad8" archimateRelationship="id-b5955227a3e5482ea277a1186d8c6058"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-88f3a5ccff76419395149cc64a4da57c" source="id-d8f42b7d11844c3ab3b832d9711495d8" target="id-7127740bf15949879ca108aca7fa533e" archimateRelationship="id-563bd885b26e48909c6828a65cef7efb">
-          <bendpoint startX="-600" startY="-2" endX="10" endY="682"/>
+          <bendpoint startX="-590" startY="-2" endX="-2" endY="190"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-6155065db9464f0cb0d59d67b109b745" source="id-d8f42b7d11844c3ab3b832d9711495d8" target="id-04ee6df449ad4e24896a8c188046f39c" archimateRelationship="id-affd3e9bf1fd42c3a91297b1d381e006">
-          <bendpoint startX="348" startY="-2" endX="-5" endY="718"/>
+          <bendpoint startX="382" startY="-2" endX="6" endY="226"/>
         </sourceConnection>
-        <sourceConnection xsi:type="archimate:Connection" id="id-0d961c2bbf8f4932a5e97b4d93c7cc6a" source="id-d8f42b7d11844c3ab3b832d9711495d8" target="id-f827b8d73c6a4871bbc15315d907e108" archimateRelationship="id-99258fa3b258457caf690f675e5093ce">
-          <bendpoint startX="1536" startY="-2" endX="-382" endY="718"/>
-          <bendpoint startX="1536" startY="-590" endX="-382" endY="130"/>
-          <bendpoint startX="1932" startY="-590" endX="14" endY="130"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d62444a7f71041af8d8086e8000e9010" source="id-d8f42b7d11844c3ab3b832d9711495d8" target="id-f827b8d73c6a4871bbc15315d907e108" archimateRelationship="id-99258fa3b258457caf690f675e5093ce">
+          <bendpoint startX="1942" startY="-2" endX="2" endY="226"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5747a837ffb347539ecf0a0f5bd35ad8" targetConnections="id-786926d74e824cb3a491096dc23e164d" archimateElement="id-1dfc7f787eaa4430bbf1cc1118fb75ca">
-        <bounds x="442" y="1740" width="120" height="55"/>
+        <bounds x="420" y="1272" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5ab7e2a22d484cb29aa2763a4671ac75" source="id-5747a837ffb347539ecf0a0f5bd35ad8" target="id-a59da9dc28ac41c691adf7d5efa14f29" archimateRelationship="id-34c9ff67b1b04a8594cf719526d86f03"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-e4a9a3c431b143428103210fe18d3e0c" targetConnections="id-e94147cc9c5948468e43882382b5a40e" archimateElement="id-597aa03008644211bde7d71ff0683e88">
