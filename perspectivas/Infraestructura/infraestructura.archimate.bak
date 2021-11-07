@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Infraestructura" id="id-3f6a3cc39cf34f3a82cbdb66ebad94c1" version="4.6.0">
+  <folder name="Strategy" id="id-e02248e8f89d462e938d11c1d14acf3d" type="strategy"/>
+  <folder name="Business" id="id-0ca5219ac9474f5b83b7c04327fb04d3" type="business"/>
+  <folder name="Application" id="id-b706047923844babb39cde5ed74b1f28" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-ac9cbec871cb4a6ca353b4e9bba045c9" type="technology"/>
+  <folder name="Motivation" id="id-4d401c60214d45d79fbb17c20185b56d" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-2c001756924c4ba09ed2909c4aea1452" type="implementation_migration"/>
+  <folder name="Other" id="id-1589935badcc4280a70ce3d8d61596d5" type="other"/>
+  <folder name="Relations" id="id-60e4380821bd4a0885bec25beadbfa99" type="relations"/>
+  <folder name="Views" id="id-ac00637ba9f948e38e782ecb41aed56a" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-fc9d441996e14251bd66c0a2ef82fbca"/>
+  </folder>
+</archimate:model>
