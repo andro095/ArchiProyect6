@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Realización de las Metas" id="id-c714949e83ef4da4a177490c9ae23d69" version="4.6.0">
+  <folder name="Strategy" id="id-37f5ae01a19a49fe846a4a3eec02f243" type="strategy"/>
+  <folder name="Business" id="id-cc8112657ad341e69ce7ed199a906660" type="business"/>
+  <folder name="Application" id="id-7b302aa7dc8442ac8bdbb0e4b47396e6" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-605b482e2a1b44bebe757b9cca445ce9" type="technology"/>
+  <folder name="Motivation" id="id-843002781d064b25b31931a12d4652fe" type="motivation">
+    <element xsi:type="archimate:Goal" name="Goal" id="id-eb12a84ba05c41078ab061aee4747d29"/>
+    <element xsi:type="archimate:Goal" name="Goal" id="id-f3547b781dbd47cf91252ddd73cf0951"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-bb770b9865e847cea7ce66a7f0cd960a" type="implementation_migration"/>
+  <folder name="Other" id="id-15acaea399d6448cb000369931eb974f" type="other"/>
+  <folder name="Relations" id="id-23b46d115f1f40abb18e263cb269322f" type="relations"/>
+  <folder name="Views" id="id-4750bf88b114471c8388b3e5500329d5" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-29a32939a474465ab81fb3af85516d6b">
+      <child xsi:type="archimate:DiagramObject" id="id-e61e3271413e4eca8e2e8bdcebdc0d1e" archimateElement="id-eb12a84ba05c41078ab061aee4747d29">
+        <bounds x="288" y="108" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7f260c7aabe14d66a29bb930b1273cc5" archimateElement="id-f3547b781dbd47cf91252ddd73cf0951">
+        <bounds x="611" y="131" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
