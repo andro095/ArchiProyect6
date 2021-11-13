@@ -286,6 +286,15 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-4c41f390b0d34a2fa030b57d94147f8e" source="id-99f6cf706f9443d2b0d6b5aae398a56e" target="id-804ff1e595a046c9adbe157f98c156da" archimateRelationship="id-2093aa4709f740da87defb9f8d04d532"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2e60ac9c8e0a4b8897f986d5dc5ba24d" source="id-99f6cf706f9443d2b0d6b5aae398a56e" target="id-2738b8b336fe45bb8eaf1ff912be668b" archimateRelationship="id-198f13f5a82f4a7c8c5e54f7c8bba2d7"/>
       </child>
+      <child xsi:type="archimate:Note" id="id-d74117beba4c4cf9a99203609c9d12bc" textAlignment="1" fillColor="#ffff00">
+        <bounds x="-124" y="156" width="185" height="80"/>
+        <content>Hola! SI estaba terminado, pero los enfoques que faltaron aqui fue hacer una conexión de LAN entre servidor general y Sage&#xD;
+</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-ff2a879b7d0842c496f6ff387f97e46a" textAlignment="1" fillColor="#ffff00">
+        <bounds x="72" y="144" width="265" height="103"/>
+        <content>Si es casi igual a la estructura de aplicacion, solo que es la implementacion o interaccion entre la infraestructura y las funcionalides de las aplicaciones del sistema, siendo los celestes</content>
+      </child>
     </element>
   </folder>
 </archimate:model>
