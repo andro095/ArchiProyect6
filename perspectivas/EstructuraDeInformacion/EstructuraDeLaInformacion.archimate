@@ -12,7 +12,7 @@
     <element xsi:type="archimate:BusinessObject" name="Registro del cliente" id="id-acde824188f846dfa48c88a37be1c225"/>
     <element xsi:type="archimate:BusinessObject" name="Reporte Final del proyecto" id="id-31c233a5e57e450b8c3ecc64dd1b13a3"/>
     <element xsi:type="archimate:BusinessObject" name="ODT (Orden de trabajo)" id="id-6ac90fc3b5e54e90b0fd11e23fbe604d"/>
-    <element xsi:type="archimate:BusinessObject" name="Registro de comprasy ventas" id="id-3253cc8dd872462aae87918062669a3d"/>
+    <element xsi:type="archimate:BusinessObject" name="Registro de compras y ventas" id="id-3253cc8dd872462aae87918062669a3d"/>
     <element xsi:type="archimate:BusinessObject" name="Factura entrante" id="id-748d63f66ffb4329a071c3453d6ab11f"/>
     <element xsi:type="archimate:BusinessObject" name="Ordenes de compra" id="id-4b6ab464350c4d31aade82a9620a3625"/>
   </folder>
