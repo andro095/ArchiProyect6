@@ -47,6 +47,8 @@
     <element xsi:type="archimate:Device" name="Servidor Sage " id="id-b6465a6bac154890bcbe6a0d7fdcaff2"/>
     <element xsi:type="archimate:Node" name="Manejo de Clientes, Rendimiento de Proyecto y Costos" id="id-beb5bec1179d4174874c1b77c7105266"/>
     <element xsi:type="archimate:CommunicationNetwork" name="Linkaform Cloud " id="id-1670c01041f8444fbf647b87eecf3b20"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="LAN" id="id-0b4ff713aaf04c618e36477e3cd68c8f"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="LAN" id="id-1cf6314165f442b395e9919d34808c5e"/>
   </folder>
   <folder name="Motivation" id="id-119d3d9a4bcc4319bd59174cf0f131fd" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="id-3bc7e0f53fa24a868a5f4950c3941dd5" type="implementation_migration">
@@ -116,6 +118,10 @@
     <element xsi:type="archimate:AssignmentRelationship" id="id-ec22a501dea343b4a1510b3249838fc8" source="id-85fa186d8cd748e59df61f1cb6c97e26" target="id-beb5bec1179d4174874c1b77c7105266"/>
     <element xsi:type="archimate:RealizationRelationship" id="id-1fa504879c3345098074fc5207bc062f" source="id-435362c58f1247e593ef35a81a82c1b3" target="id-f1bf1ba7b17747cca25c843b829a77cb"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-a3ee040c0c3749859546869a29249659" source="id-8443816da54d418585c03c6f5ca5d39b" target="id-39a8d9d85cac4f1699b2176babaf4c9a"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-682d84d7328446128a077eb700da077b" source="id-0b4ff713aaf04c618e36477e3cd68c8f" target="id-cbbf1c1cda4c4c9dbcb8cb544a2ab546"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-ae3d560f889d45259a61a98a949e56c8" source="id-2a33595adc2d4f949e73140df93e7130" target="id-0b4ff713aaf04c618e36477e3cd68c8f"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-839a53d0baa04b1b93271df4d6b7e99d" source="id-1cf6314165f442b395e9919d34808c5e" target="id-b6465a6bac154890bcbe6a0d7fdcaff2"/>
+    <element xsi:type="archimate:FlowRelationship" id="id-3dfb079717f44f0891f507600a311509" source="id-d28441c823c64d9b8209aa76bae83bb6" target="id-1cf6314165f442b395e9919d34808c5e"/>
   </folder>
   <folder name="Views" id="id-b42f970c3b5242679c7789b13cf758bf" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-443a35b6ddc7453b98548477cc87fe58">
@@ -188,7 +194,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-1144c6ec837e424ea03cb9796b6f7bbd" source="id-09fb21c0c860495b9f9a17216ed4764e" target="id-71b4fd7e78fa4c658ecb4fe84485576b" archimateRelationship="id-bafc54ac96a446aca70668e2bee29b89"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f943048dae054339a0c5eeb54f08c2b5" source="id-09fb21c0c860495b9f9a17216ed4764e" target="id-3f1f289bc9d84c3ab6533b36c3c01218" archimateRelationship="id-a3ee040c0c3749859546869a29249659"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-27c51b6d03ad44eb9da8969b4eea8a4f" archimateElement="id-cbbf1c1cda4c4c9dbcb8cb544a2ab546">
+      <child xsi:type="archimate:DiagramObject" id="id-27c51b6d03ad44eb9da8969b4eea8a4f" targetConnections="id-8258c3f15bd8465888dbc71a7f1d3d31" archimateElement="id-cbbf1c1cda4c4c9dbcb8cb544a2ab546">
         <bounds x="888" y="504" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6b3b5f3505974d9f862ed82f35fe8902" source="id-27c51b6d03ad44eb9da8969b4eea8a4f" target="id-b62df59c856042cab408dc36cce6224e" archimateRelationship="id-bb6ccaff6eed4a31b1ee3df672c52195"/>
       </child>
@@ -211,6 +217,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-d48741428ec549bfa8ddf5dce96a1adf" archimateElement="id-2a33595adc2d4f949e73140df93e7130">
         <bounds x="696" y="510" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f6a8a888d5a84309aa628ec6f4c3d185" source="id-d48741428ec549bfa8ddf5dce96a1adf" target="id-b62df59c856042cab408dc36cce6224e" archimateRelationship="id-7621e2ad6c254a91b7f68d433d812828"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-80f8bc0d7a2046beb2a260d3c6d3bf94" source="id-d48741428ec549bfa8ddf5dce96a1adf" target="id-f9e26ef609e7489c8c1f8dc1f3dad939" archimateRelationship="id-ae3d560f889d45259a61a98a949e56c8"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-b62df59c856042cab408dc36cce6224e" targetConnections="id-f6a8a888d5a84309aa628ec6f4c3d185 id-6b3b5f3505974d9f862ed82f35fe8902" fillColor="#ff80c0" archimateElement="id-85fa186d8cd748e59df61f1cb6c97e26">
         <bounds x="684" y="312" width="349" height="133"/>
@@ -245,7 +252,7 @@
         <bounds x="474" y="339" width="132" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a65d1f8723114842b4029e2c4345b886" source="id-7ef17a2d59f54f949caaa719e292515c" target="id-b51343429a824c9ab5f91705d954068a" archimateRelationship="id-3b4527f435ae4f6797c694c1c04f897e"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-be7dba799d0a4aae93623549e77addac" archimateElement="id-b6465a6bac154890bcbe6a0d7fdcaff2">
+      <child xsi:type="archimate:DiagramObject" id="id-be7dba799d0a4aae93623549e77addac" targetConnections="id-2449c5b94ee74b8cb8ae615dce7e5e48" archimateElement="id-b6465a6bac154890bcbe6a0d7fdcaff2">
         <bounds x="1428" y="576" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-4327f0b63e9a435e847db2110da8733d" source="id-be7dba799d0a4aae93623549e77addac" target="id-36f8924827544aefbb7d7eb42cb94b89" archimateRelationship="id-15132c8e0a434ab6a83c96012fe89cf9"/>
       </child>
@@ -277,6 +284,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-f901b0bc7c164b28ae910f17e16b8627" archimateElement="id-d28441c823c64d9b8209aa76bae83bb6">
         <bounds x="1644" y="576" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-df4cb3ba6aa5426e9f507ec14fd05759" source="id-f901b0bc7c164b28ae910f17e16b8627" target="id-36f8924827544aefbb7d7eb42cb94b89" archimateRelationship="id-ab9759ee90384c0fa348ab5a85cac98f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-1d09c611492a412eae05809448aa67ce" source="id-f901b0bc7c164b28ae910f17e16b8627" target="id-e5168eaf57784ba3b558a2ff0ad3a862" archimateRelationship="id-3dfb079717f44f0891f507600a311509"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9fd145fecc4c499f8b86125aeaa188af" targetConnections="id-3cba235e121242cdb147f8ccf1746d2c" archimateElement="id-98dc47860f6b4c5883a88c39f89d5f10">
         <bounds x="1164" y="432" width="120" height="55"/>
@@ -286,14 +294,13 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-4c41f390b0d34a2fa030b57d94147f8e" source="id-99f6cf706f9443d2b0d6b5aae398a56e" target="id-804ff1e595a046c9adbe157f98c156da" archimateRelationship="id-2093aa4709f740da87defb9f8d04d532"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2e60ac9c8e0a4b8897f986d5dc5ba24d" source="id-99f6cf706f9443d2b0d6b5aae398a56e" target="id-2738b8b336fe45bb8eaf1ff912be668b" archimateRelationship="id-198f13f5a82f4a7c8c5e54f7c8bba2d7"/>
       </child>
-      <child xsi:type="archimate:Note" id="id-d74117beba4c4cf9a99203609c9d12bc" textAlignment="1" fillColor="#ffff00">
-        <bounds x="-124" y="156" width="185" height="80"/>
-        <content>Hola! SI estaba terminado, pero los enfoques que faltaron aqui fue hacer una conexión de LAN entre servidor general y Sage&#xD;
-</content>
+      <child xsi:type="archimate:DiagramObject" id="id-f9e26ef609e7489c8c1f8dc1f3dad939" targetConnections="id-80f8bc0d7a2046beb2a260d3c6d3bf94" archimateElement="id-0b4ff713aaf04c618e36477e3cd68c8f">
+        <bounds x="799" y="612" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-8258c3f15bd8465888dbc71a7f1d3d31" source="id-f9e26ef609e7489c8c1f8dc1f3dad939" target="id-27c51b6d03ad44eb9da8969b4eea8a4f" archimateRelationship="id-682d84d7328446128a077eb700da077b"/>
       </child>
-      <child xsi:type="archimate:Note" id="id-ff2a879b7d0842c496f6ff387f97e46a" textAlignment="1" fillColor="#ffff00">
-        <bounds x="72" y="144" width="265" height="103"/>
-        <content>Si es casi igual a la estructura de aplicacion, solo que es la implementacion o interaccion entre la infraestructura y las funcionalides de las aplicaciones del sistema, siendo los celestes</content>
+      <child xsi:type="archimate:DiagramObject" id="id-e5168eaf57784ba3b558a2ff0ad3a862" targetConnections="id-1d09c611492a412eae05809448aa67ce" archimateElement="id-1cf6314165f442b395e9919d34808c5e">
+        <bounds x="1547" y="684" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2449c5b94ee74b8cb8ae615dce7e5e48" source="id-e5168eaf57784ba3b558a2ff0ad3a862" target="id-be7dba799d0a4aae93623549e77addac" archimateRelationship="id-839a53d0baa04b1b93271df4d6b7e99d"/>
       </child>
     </element>
   </folder>
